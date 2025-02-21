@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.get('/', (_, res) => {
+app.get('/', (req, res) => {
     res.send('APi Working');
 });
 
